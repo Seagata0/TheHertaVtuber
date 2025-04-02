@@ -2,17 +2,17 @@
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
 ## First Project(Generative AI Prompting) :
-AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
-LLM : CGPT & Deepseek
-TTS : Edge-TTS
-Audio Model : refer to the 2nd Proj
+- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
+- LLM : CGPT & Deepseek
+- TTS : Edge-TTS
+- Audio Model : Refer to the 2nd Proj
 
 ## Second Project (Finetuning) :
-RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
-Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
-PNG Tuber : Coming Soon... <br>
-Colab : Coming Soon... <br>
-Docs : Coming Soon... <br>
+- RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
+- Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
+- PNG Tuber : Coming Soon... <br>
+- Colab : Coming Soon... <br>
+- Docs : Coming Soon... <br>
 
 ## Tools:
 - Python 3.10.11
