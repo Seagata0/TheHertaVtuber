@@ -7,7 +7,7 @@
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Proj
 - Total Prompt : 41
-  - Text Prompt : 9 (https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared the output will be written in Deepseek_ouput.txt
+  - Text Prompt : 9 (https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS below"
   - Audio Prompt : 24 (Output Can Be checked in /audio/tts)
 
 
@@ -49,21 +49,32 @@
 > - As for the last script "「ん？まだいるの？ということは、よほど興味があるってことか。時間はない。『セイガ』が待っているから、自分で調べろよ！でないと、本当に脳が錆びついてしまうぞ」" make it as dismissive to the viewer as much as you can, and also セイガ is just my name, so in this context she will be going out with me
 
 
-### Prompt for TTS
-Part1:
+### Prompt for TTS (Deepseek)
+Prompt 1:
+Certainly! Here's a more arrogant and smug rewrite, channeling Herta's signature condescending tone and self-absorbed flair:
+
+「はぁ……まさか、チャットボットの話なんぞで私の時間を奪おうとするんですか？
+呆れますね……知能の限界を感じますよ。
+まあ、蟻が宇宙を理解しようとするようなものですわ。哀れだから特別に教えてあげる。
+そもそも、こんな幼稚なテーマ、私が説明するなんて……ふふ、あなたたちの為に『神が数学を噛み砕く』ようなものですわ。
+感謝しなさい。私の寛大さと、あなた方の無知が奇跡的に釣り合ったこの瞬間を。」
+
+(Translation notes: Added exaggerated sighs, belittling metaphors ("ants trying to understand the universe"), sarcastic humility ("generosity"), and comparisons to "gods simplifying math" to emphasize her intellectual superiority. Uses dismissive particles like なんぞ and playful condescension in ふふ to mirror Herta's smugness.)
+
+Prompt 2:
 > - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットとは何なのか説明してもらえますか？ ...本当にそんな話して私の時間を無駄にしたいんですか？" --write-media line1.wav --rate=-4% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "呆れますね... 知能の限界を感じますよ..." --write-media line2.wav --rate=-5%
 > - edge-tts --voice ja-JP-NanamiNeural --text "まあ、蟻が宇宙を理解.~ しようとするようなものですわ.../~   哀れだから.../ 特別に教えてあげる" --write-media line3.wav --rate=+0% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "そもそも、こんなもの~、私が説明するなんて... ふふ~/..." --write-media line4.wav --rate=+2% --pitch=+15Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "あなたたちの為に『神が数学を噛み砕く』ようなものですわ。" --write-media line5.wav --rate=-10% --pitch=+5Hz>
 
-Part2:
+Prompt 3:
 > - edge-tts --voice ja-JP-NanamiNeural --text "感謝~しなさい~.../. 私の寛大さと、/あなた方の無知が,奇跡的に釣り合っ,たこの瞬間を/。" --write-media line6.wav --rate=-10% --pitch=+2Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "入力された単語を統計的に処理して...（ため息）" --write-media line3.wav --rate=+0% --pitch=+5Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "『意味のある返答』のように*見せる*だけ。子供だましよ。" --write-media line4.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "もしこれが『賢い』と思うなら...（笑）...現実を見る練習をしたほうがいいわ。」" --write-media line5.wav --rate=-15% --pitch=-10Hz
 
-Part3:
+Prompt 4:
 > - edge-tts --voice ja-JP-NanamiNeural --text "しかし...（ため息）あなたのような人でも気づいたのね？" --write-media line1.wav --rate=-15% --pitch=+5Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "なぜ一部のチャットボットは*知的に見え*...（笑）" --write-media line2.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "他のボットは...まあ、*故障したNPC*のように文章を繰り返すだけ？" --write-media line3.wav --rate=+5% --pitch=+15Hz
@@ -71,7 +82,7 @@ Part3:
 > - edge-tts --voice ja-JP-NanamiNeural --text "たった2つの要因よ：*推論*能力と...（軽蔑的な笑い）" --write-media line5.wav --rate=+0% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "*パラメータ*の差という、小学生でも理解できる単純な話なの。」" --write-media line6.wav --rate=-20% --pitch=-10Hz
 
-Part4:
+Prompt 5:
 > - edge-tts --voice ja-JP-NanamiNeural --text "「推論？...（ため息）まあ、あなた向けに超簡単に説明してあげるわ。" --write-media line1.wav --rate=-20% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットが*無数の可能性*から...（笑）まさに『推測』と呼べるような行為で答えを選ぶ方法よ。" --write-media line2.wav --rate=+15% --pitch=+25Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "推論が*優れてる*ほど...まあ、あなたの理解を超えない範囲で言えば...合理的に見えるの。" --write-media line3.wav --rate=+0% --pitch=+15Hz
@@ -79,7 +90,7 @@ Part4:
 > - edge-tts --voice ja-JP-NanamiNeural --text "それは彼らの...（ため息）『知能レベル』と呼ぶに値するかしら？" --write-media line5.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "パラメーターが悪ければ...（冷笑）石器時代の*壊れた玩具*同然の反応しか返せないわ。」" --write-media line6.wav --rate=-25% --pitch=-15Hz
 
-Part5:
+Prompt 6:
 > - edge-tts --voice ja-JP-NanamiNeural --text "「ん？*まだ*居座ってるの？" --write-media line1.wav --rate=+30% --pitch=+40Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "まさか...（笑）この*退屈な説明*に夢中なんでしょうね？" --write-media line2.wav --rate=+10% --pitch=+25Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "残念だけど、*セイガ*との約束があるの。" --write-media line3.wav --rate=-15% --pitch=-10Hz
