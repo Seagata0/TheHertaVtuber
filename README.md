@@ -1,5 +1,5 @@
-# TheHertaVtuber
-Generative AI Classs's First Project <br>
+# Generative AI Classs's First Project - The Herta Vtuber
+Group 7 (Bojongsantos Oost-indische Compagnie)<br>
 Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
 PNG Tuber : Coming Soon... <br>
 RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
