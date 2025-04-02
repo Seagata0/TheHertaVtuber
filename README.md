@@ -6,6 +6,9 @@
 - LLM : CGPT & Deepseek
 - TTS : Edge-TTS
 - Audio Model : Refer to the 2nd Proj
+- Total Prompt : 41
+  - Text Prompt : 9
+  - Audio Prompt : 32
 
 ## Second Project (Finetuning) :
 - RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
@@ -91,5 +94,7 @@ Part2:
 - Base model used Hubert-base (https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main)
 - There are 2 models(RMVPE & Harvest) where:
   - RMVPE (750 Epochs)
-  - Harvest (300 Epochs) 
-the next one is... huhhhh IDK, I will just continue playing Limbus Company for now
+  - Harvest (300 Epochs)
+
+The next one is... huhhhh IDK, I will just continue playing Limbus Company for now
+DANTEH... DO YOUR DAILIES DANTEH...
