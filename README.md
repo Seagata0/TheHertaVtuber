@@ -1,9 +1,10 @@
 # Generative AI Classs's Project - The Herta Vtuber
-Group 7 (Bojongsantos Oost-indische Compagnie)<br>
-First Project(Generative AI Prompting) :
+Group 7 (Bojongsantos Oost-indische Compagnie)<br><br>
+
+### First Project(Generative AI Prompting) :
 AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
 
-Second Project (Finetuning) :
+## Second Project (Finetuning) :
 RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
 Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
 PNG Tuber : Coming Soon... <br>
@@ -85,4 +86,7 @@ Part2:
 ## Model Fine Tuning (Audio)
 - Audio gathered from honkai-star-rail.fandom.com, consisting of 57 audio file in .ogg format, and later split into 64 .wav file (44100Hz).
 - Base model used Hubert-base (https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main)
+- There are 2 models(RMVPE & Harvest) where:
+  - RMVPE (750 Epochs)
+  - Harvest (300 Epochs) 
 the next one is... huhhhh IDK, I will just continue playing Limbus Company for now
