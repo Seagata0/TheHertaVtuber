@@ -2,12 +2,12 @@
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
 ## First Project(Generative AI Prompting) :
-- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:49) <br>
+- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:49 (2 Minutess 49 Seconds)) <br>
 - LLM : CGPT & Deepseek
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Proj
 - Total Prompt : 41
-  - Text Prompt : 9 (https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS below"
+  - Text Prompt : 9 ((https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS" below)
   - Audio Prompt : 24 (Output Can Be checked in /audio/tts)
 
 
