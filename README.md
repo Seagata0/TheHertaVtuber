@@ -1,8 +1,9 @@
 # TheHertaVtuber
 Generative AI's Classs First Project <br>
-RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb)
-Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek
-PNG Tuber : Coming Soon...
+Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
+PNG Tuber : Coming Soon... <br>
+RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
+Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
 
 ## Tools:
 - Python 3.10.11
