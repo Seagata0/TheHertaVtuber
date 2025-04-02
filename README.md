@@ -2,13 +2,14 @@
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
 ## First Project(Generative AI Prompting) :
-- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
+- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:49) <br>
 - LLM : CGPT & Deepseek
-- TTS : Edge-TTS
+- TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Proj
 - Total Prompt : 41
-  - Text Prompt : 9
-  - Audio Prompt : 32
+  - Text Prompt : 9 (https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared the output will be written in Deepseek_ouput.txt
+  - Audio Prompt : 24 (Output Can Be checked in /audio/tts)
+
 
 ## Second Project (Finetuning) :
 - RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
@@ -62,6 +63,7 @@ Part2:
 > - edge-tts --voice ja-JP-NanamiNeural --text "『意味のある返答』のように*見せる*だけ。子供だましよ。" --write-media line4.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "もしこれが『賢い』と思うなら...（笑）...現実を見る練習をしたほうがいいわ。」" --write-media line5.wav --rate=-15% --pitch=-10Hz
 
+Part3:
 > - edge-tts --voice ja-JP-NanamiNeural --text "しかし...（ため息）あなたのような人でも気づいたのね？" --write-media line1.wav --rate=-15% --pitch=+5Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "なぜ一部のチャットボットは*知的に見え*...（笑）" --write-media line2.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "他のボットは...まあ、*故障したNPC*のように文章を繰り返すだけ？" --write-media line3.wav --rate=+5% --pitch=+15Hz
@@ -69,6 +71,7 @@ Part2:
 > - edge-tts --voice ja-JP-NanamiNeural --text "たった2つの要因よ：*推論*能力と...（軽蔑的な笑い）" --write-media line5.wav --rate=+0% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "*パラメータ*の差という、小学生でも理解できる単純な話なの。」" --write-media line6.wav --rate=-20% --pitch=-10Hz
 
+Part4:
 > - edge-tts --voice ja-JP-NanamiNeural --text "「推論？...（ため息）まあ、あなた向けに超簡単に説明してあげるわ。" --write-media line1.wav --rate=-20% --pitch=+10Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットが*無数の可能性*から...（笑）まさに『推測』と呼べるような行為で答えを選ぶ方法よ。" --write-media line2.wav --rate=+15% --pitch=+25Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "推論が*優れてる*ほど...まあ、あなたの理解を超えない範囲で言えば...合理的に見えるの。" --write-media line3.wav --rate=+0% --pitch=+15Hz
@@ -76,13 +79,7 @@ Part2:
 > - edge-tts --voice ja-JP-NanamiNeural --text "それは彼らの...（ため息）『知能レベル』と呼ぶに値するかしら？" --write-media line5.wav --rate=+10% --pitch=+20Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "パラメーターが悪ければ...（冷笑）石器時代の*壊れた玩具*同然の反応しか返せないわ。」" --write-media line6.wav --rate=-25% --pitch=-15Hz
 
-> - edge-tts --voice ja-JP-NanamiNeural --text "「推論？...（ため息）まあ、あなた向けに超簡単に説明してあげるわ。" --write-media line1.wav --rate=-20% --pitch=+10Hz
-> - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットが*無数の可能性*から...（笑）まさに『推測』と呼べるような行為で答えを選ぶ方法よ。" --write-media line2.wav --rate=+15% --pitch=+25Hz
-> - edge-tts --voice ja-JP-NanamiNeural --text "推論が*優れてる*ほど...まあ、あなたの理解を超えない範囲で言えば...合理的に見えるの。" --write-media line3.wav --rate=+0% --pitch=+15Hz
-> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーター？...（紙をめくる音）あら、ようやく核心に気づいたの？" --write-media line4.wav --rate=-30% --pitch=-5Hz
-> - edge-tts --voice ja-JP-NanamiNeural --text "それは彼らの...（ため息）『知能レベル』と呼ぶに値するかしら？" --write-media line5.wav --rate=+10% --pitch=+20Hz
-> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーターが悪ければ...（冷笑）石器時代の*壊れた玩具*同然の反応しか返せないわ。」" --write-media line6.wav --rate=-25% --pitch=-15Hz
-
+Part5:
 > - edge-tts --voice ja-JP-NanamiNeural --text "「ん？*まだ*居座ってるの？" --write-media line1.wav --rate=+30% --pitch=+40Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "まさか...（笑）この*退屈な説明*に夢中なんでしょうね？" --write-media line2.wav --rate=+10% --pitch=+25Hz
 > - edge-tts --voice ja-JP-NanamiNeural --text "残念だけど、*セイガ*との約束があるの。" --write-media line3.wav --rate=-15% --pitch=-10Hz
