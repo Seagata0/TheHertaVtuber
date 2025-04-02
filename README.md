@@ -3,6 +3,9 @@
 
 ## First Project(Generative AI Prompting) :
 AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
+LLM : CGPT & Deepseek
+TTS : Edge-TTS
+Audio Model : refer to the 2nd Proj
 
 ## Second Project (Finetuning) :
 RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
