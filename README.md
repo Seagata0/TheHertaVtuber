@@ -1,9 +1,14 @@
-# Generative AI Classs's First Project - The Herta Vtuber
+# Generative AI Classs's Project - The Herta Vtuber
 Group 7 (Bojongsantos Oost-indische Compagnie)<br>
-Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
-PNG Tuber : Coming Soon... <br>
+First Project(Generative AI Prompting) :
+AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
+
+Second Project (Finetuning) :
 RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
 Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
+PNG Tuber : Coming Soon... <br>
+Colab : Coming Soon... <br>
+Docs : Coming Soon... <br>
 
 ## Tools:
 - Python 3.10.11
@@ -46,4 +51,38 @@ Part1:
 
 Part2:
 > - edge-tts --voice ja-JP-NanamiNeural --text "感謝~しなさい~.../. 私の寛大さと、/あなた方の無知が,奇跡的に釣り合っ,たこの瞬間を/。" --write-media line6.wav --rate=-10% --pitch=+2Hz
-> - 
+> - edge-tts --voice ja-JP-NanamiNeural --text "入力された単語を統計的に処理して...（ため息）" --write-media line3.wav --rate=+0% --pitch=+5Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "『意味のある返答』のように*見せる*だけ。子供だましよ。" --write-media line4.wav --rate=+10% --pitch=+20Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "もしこれが『賢い』と思うなら...（笑）...現実を見る練習をしたほうがいいわ。」" --write-media line5.wav --rate=-15% --pitch=-10Hz
+
+> - edge-tts --voice ja-JP-NanamiNeural --text "しかし...（ため息）あなたのような人でも気づいたのね？" --write-media line1.wav --rate=-15% --pitch=+5Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "なぜ一部のチャットボットは*知的に見え*...（笑）" --write-media line2.wav --rate=+10% --pitch=+20Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "他のボットは...まあ、*故障したNPC*のように文章を繰り返すだけ？" --write-media line3.wav --rate=+5% --pitch=+15Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "答えは...（紙をめくる音）" --write-media line4.wav --rate=-30% --pitch=-5Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "たった2つの要因よ：*推論*能力と...（軽蔑的な笑い）" --write-media line5.wav --rate=+0% --pitch=+10Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "*パラメータ*の差という、小学生でも理解できる単純な話なの。」" --write-media line6.wav --rate=-20% --pitch=-10Hz
+
+> - edge-tts --voice ja-JP-NanamiNeural --text "「推論？...（ため息）まあ、あなた向けに超簡単に説明してあげるわ。" --write-media line1.wav --rate=-20% --pitch=+10Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットが*無数の可能性*から...（笑）まさに『推測』と呼べるような行為で答えを選ぶ方法よ。" --write-media line2.wav --rate=+15% --pitch=+25Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "推論が*優れてる*ほど...まあ、あなたの理解を超えない範囲で言えば...合理的に見えるの。" --write-media line3.wav --rate=+0% --pitch=+15Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーター？...（紙をめくる音）あら、ようやく核心に気づいたの？" --write-media line4.wav --rate=-30% --pitch=-5Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "それは彼らの...（ため息）『知能レベル』と呼ぶに値するかしら？" --write-media line5.wav --rate=+10% --pitch=+20Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーターが悪ければ...（冷笑）石器時代の*壊れた玩具*同然の反応しか返せないわ。」" --write-media line6.wav --rate=-25% --pitch=-15Hz
+
+> - edge-tts --voice ja-JP-NanamiNeural --text "「推論？...（ため息）まあ、あなた向けに超簡単に説明してあげるわ。" --write-media line1.wav --rate=-20% --pitch=+10Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "チャットボットが*無数の可能性*から...（笑）まさに『推測』と呼べるような行為で答えを選ぶ方法よ。" --write-media line2.wav --rate=+15% --pitch=+25Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "推論が*優れてる*ほど...まあ、あなたの理解を超えない範囲で言えば...合理的に見えるの。" --write-media line3.wav --rate=+0% --pitch=+15Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーター？...（紙をめくる音）あら、ようやく核心に気づいたの？" --write-media line4.wav --rate=-30% --pitch=-5Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "それは彼らの...（ため息）『知能レベル』と呼ぶに値するかしら？" --write-media line5.wav --rate=+10% --pitch=+20Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "パラメーターが悪ければ...（冷笑）石器時代の*壊れた玩具*同然の反応しか返せないわ。」" --write-media line6.wav --rate=-25% --pitch=-15Hz
+
+> - edge-tts --voice ja-JP-NanamiNeural --text "「ん？*まだ*居座ってるの？" --write-media line1.wav --rate=+30% --pitch=+40Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "まさか...（笑）この*退屈な説明*に夢中なんでしょうね？" --write-media line2.wav --rate=+10% --pitch=+25Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "残念だけど、*セイガ*との約束があるの。" --write-media line3.wav --rate=-15% --pitch=-10Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "自分で調べなさい...（イライラしたため息）" --write-media line4.wav --rate=+40% --pitch=+50Hz
+> - edge-tts --voice ja-JP-NanamiNeural --text "でないと...（冷笑）脳みそが*腐る*前に錆びつくわよ。」" --write-media line5.wav --rate=-25% --pitch=-20Hz
+
+## Model Fine Tuning (Audio)
+- Audio gathered from honkai-star-rail.fandom.com, consisting of 57 audio file in .ogg format, and later split into 64 .wav file (44100Hz).
+- Base model used Hubert-base (https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main)
+the next one is... huhhhh IDK, I will just continue playing Limbus Company for now
