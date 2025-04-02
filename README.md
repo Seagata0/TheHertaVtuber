@@ -96,5 +96,5 @@ Part2:
   - RMVPE (750 Epochs)
   - Harvest (300 Epochs)
 
-The next one is... huhhhh IDK, I will just continue playing Limbus Company for now
-DANTEH... DO YOUR DAILIES DANTEH...
+The next one is... huhhhh IDK, I will just continue playing Limbus Company for now <br>
+**DANTEH...** DO YOUR DAILIES DANTEH...
