@@ -1,4 +1,5 @@
-# Generative AI Classs's Project - The Herta Vtuber<br>Group 7 (Bojongsantos Oost-indische Compagnie)<br><br>
+# Generative AI Classs's Project - The Herta Vtuber<br>Group 7 (Bojongsantos Oost-indische Compagnie)<br>
+![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
 ## First Project(Generative AI Prompting) :
 AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek <br>
