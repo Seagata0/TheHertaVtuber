@@ -6,7 +6,7 @@
 - LLM : CGPT & Deepseek
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Proj
-- Total Prompt : 41
+- Total Prompt : 41 (Will be used for the second project)
   - Text Prompt : 9 ((https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS" below)
   - Audio Prompt : 24 (Output Can Be checked in /audio/tts)
 
@@ -14,7 +14,7 @@
 ## Second Project (Finetuning) :
 - RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github cant handle files thats bigger than 25mb) <br>
 - Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
-- PNG Tuber : Coming Soon... <br>
+- VTuber Video : Coming Soon... <br>
 - Colab : Coming Soon... <br>
 - Docs : Coming Soon... <br>
 
