@@ -2,21 +2,23 @@
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
 ## First Project(Generative AI Prompting) :
-- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:49 (2 Minutes 49 Seconds)) <br>
+- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:58(2 Minutes 58 Seconds)) <br>
 - LLM : ChatGPT & DeepSeek
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Project
 - Total Prompt : 41 (Will be used for the second project)
   - Text Prompt : 9 ((https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS" below)
-  - Audio Prompt : 24 (Output Can Be checked in /audio/tts)
+  - Audio Prompt : 24 (Output Can Be checked in /Audio/TTS)
 
 
 ## Second Project (Finetuning) :
 - RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github can't handle file that is bigger than 25mb) <br>
 - Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
+- Audio dataset: /VoiceDatasetPreFine-tuning
+- Post fine-tuning audio dataset: /TheHertaVoiceDataset
 - VTuber Video : Coming Soon... <br>
-- Colab : Coming Soon... <br>
-- Docs : Coming Soon... <br>
+- Google Colab : Coming Soon... <br>
+- Google Docs : Coming Soon... <br>
 
 ## Tools:
 - Python 3.10.11
