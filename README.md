@@ -1,8 +1,12 @@
 # Generative AI Classs's Project - The Herta Vtuber<br>Group 7 (Bojongsantos Oost-indische Compagnie)<br>
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
+# Well, we stir out of the original purpose because of... laziness and dissertation paper.
+
+
 ## First Project(Generative AI Prompting) :
-- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:58(2 Minutes 58 Seconds)) <br>
+- AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:58 (2 Minutes 58 Seconds)) <br>
+- Art on Thumbnail : The Herta.png (Seagata draw it)
 - LLM : ChatGPT & DeepSeek
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Project
@@ -12,13 +16,33 @@
 
 
 ## Second Project (Finetuning) :
+### RVC
 - RVC Model : [Seagata/TheHerta_RVCModel](https://huggingface.co/Seagata/TheHerta_RVCModel/) (Uploaded there since github can't handle file that is bigger than 25mb) <br>
 - Audio source: https://honkai-star-rail.fandom.com/wiki/The_Herta/Voice-Overs/Japanese <br>
 - Audio dataset: /VoiceDatasetPreFine-tuning
 - Post fine-tuning audio dataset: /TheHertaVoiceDataset
-- VTuber Video : Coming Soon... <br>
-- Google Colab : Coming Soon... <br>
-- Google Docs : Coming Soon... <br>
+- Google Colab: https://colab.research.google.com/drive/1onf0FOLW46ywWthjMFEdKbh-E70D9v3c?usp=sharing
+
+### LLM
+- LLM Model: Not Yet Uploaded (Uploaded there since github can't handle file that is bigger than 25mb) <br>
+- Base Model: https://huggingface.co/Sao10K/L3-8B-Stheno-v3.2
+- Dataset: /TheHertaLLMDataset
+- Dataset Source:
+  - https://honkai-star-rail.fandom.com/wiki/The_Herta
+  - https://honkai-star-rail.fandom.com/wiki/Herta
+  - https://honkai-star-rail.fandom.com/wiki/Aeon
+  - https://honkai-star-rail.fandom.com/wiki/Simulated_Universe
+- Google Colab: https://colab.research.google.com/drive/1tUYRtgQWdWNnPJXawGNrf5yNWHzT_jux?usp=sharing
+
+## Second Project Implementation :
+### RVC
+- The Herta AI cover I Like You The Most (https://www.youtube.com/watch?v=4tJADqRNzek)
+- I'll add later
+
+### LLM
+- I mean it is a normal gguf LLM, use it wherever you want
+- Discord Bot(85% done)
+- Telegram Bot (95% done)
 
 ## Tools:
 - Python 3.10.11
@@ -35,6 +59,8 @@
 - Adobe Photoshop (Image Editing)
 - Adobe After Effect (Video editing)
 - HandBrake (Video Compression)
+- llama.cpp
+- koboldcpp
 
 ## Prompt for the Vtuber
 ### CGPT (Mursyid)
