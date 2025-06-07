@@ -1,7 +1,7 @@
 # Generative AI Classs's Project - The Herta Vtuber<br>Group 7 (Bojongsantos Oost-indische Compagnie)<br>
 ![BOC 320](https://github.com/user-attachments/assets/5b04e5ed-6524-4bda-a7d8-6edea5df1511)
 
-# Well, we stir out of the original purpose because of... laziness and dissertation paper.
+# Well, we stir out of the original goal because of... laziness and dissertation paper.
 
 
 ## First Project(Generative AI Prompting) :
@@ -13,7 +13,6 @@
 - Total Prompt : 41 (Will be used for the second project)
   - Text Prompt : 9 ((https://chatgpt.com/share/67eab298-9814-800b-bb02-8861e6c70c29) & Since Deepseek Cant be shared, the output is shown as "Prompt for TTS" below)
   - Audio Prompt : 24 (Output Can Be checked in /Audio/TTS)
-
 
 ## Second Project (Finetuning) :
 ### RVC
@@ -37,14 +36,14 @@
 ## Second Project Implementation :
 ### RVC
 - The Herta AI cover I Like You The Most (https://www.youtube.com/watch?v=4tJADqRNzek)
-- I'll add later
+- I'll add later, though I need to tweak the TTS first
 
 ### LLM
 - I mean it is a normal gguf LLM, use it wherever you want
 - Discord Bot(85% done)
 - Telegram Bot (95% done)
 
-## Tools:
+## Tools Used:
 - Python 3.10.11
 - Colab (training)
 - https://github.com/rany2/edge-tts (Text To Speech (TTS))
