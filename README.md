@@ -61,6 +61,7 @@
 - HandBrake (Video Compression)
 - llama.cpp
 - koboldcpp
+- ollama
 
 ## Model Fine Tuning (RVC)
 - Audio gathered from honkai-star-rail.fandom.com, consisting of 57 audio file in .ogg format, and later split into 64 .wav file (44100Hz).
@@ -69,8 +70,5 @@
   - Harvest (300 Epochs)
 
 ## Model Fine Tuning (LLM)
-- Learning rate 2e-6
-- 25 epochs (575 steps)
-
-The next one is... huhhhh IDK, I will just continue playing Limbus Company for now <br>
-**DANTEH...** DO YOUR DAILIES DANTEH...
+- Learning rate: 2e-6
+- Epochs: 25 (575 steps)
