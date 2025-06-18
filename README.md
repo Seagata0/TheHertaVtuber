@@ -6,7 +6,7 @@
 
 ## First Project(Generative AI Prompting) :
 - AI Cover Video : https://www.youtube.com/watch?v=4tJADqRNzek (Audio 2:58 (2 Minutes 58 Seconds)) <br>
-- Art on Thumbnail : The Herta.png (Seagata draw it)
+- Art on Thumbnail : hehe~
 - LLM : ChatGPT & DeepSeek
 - TTS : Edge-TTS (ja-JP-NanamiNeural)
 - Audio Model : Refer to the 2nd Project
@@ -53,8 +53,6 @@
 - Deepseek(Prompting and Script Editing)
 - Gemini(to help Sega fixing error)
 - Google Translate (Helping Sega to stay sane when translating)
-- Clip Studio Paint (Drawing)
-- veadotube (PNG Tuber tools)
 - Audacity (Audio editing & Preprocessing)
 - Adobe Photoshop (Image Editing)
 - Adobe After Effect (Video editing)
